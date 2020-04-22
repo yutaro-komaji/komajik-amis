@@ -1,5 +1,5 @@
 ---
-title: "kubiswara'z Records Official"
+title: "kubiswara'z Records"
 subtitle: こども心を忘れずに、好きなことを。
 image: /img/home-jumbotron.jpg
 blurb:
