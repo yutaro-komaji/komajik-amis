@@ -1,31 +1,111 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>amis amants | kubiswara'z</title>
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-{{ partial "4-up" .Params.intro }}
+	<link href="/main.css" rel="stylesheet">
 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Language" content="ja" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="keywords" content="amisamants,アミスアマンツ,amam,バンド,高木勇気,石﨑晴也,kubiswara'z" />
+	<meta name="description" content="amis amants（アミス アマンツ）は、名古屋の２ピースロックバンド。バンド形式でのライブ活動を一時休止中。Gt.&Vo.高木勇気のソロ活動は続けております。" />
+	<meta property="og:title" content="amis amants | kubiswara'z" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://kubiswaraz.com/amis-amants/" />
+	<meta property="og:image" content="/img/ogimg/og-amis.png" />
+	<meta property="og:description" content="amis amants（アミス アマンツ）は、名古屋の２ピースロックバンド。バンド形式でのライブ活動を一時休止中。Gt.&Vo.高木勇気のソロ活動は続けております。" />
+	<link rel="icon" href="http://www.kubiswaraz.com/amis-amants/common/icon/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+</head>
+<body class="am container">
+	<header>
+		<div class="over-black"></div>
+		<div class="hdg-lv1-wrp">
+			<div class="main-visual">
+				<img src="/img/amis-logo.png" alt="amis amants">
+			</div>
+			<h1 class="hdg-lv1">OFFICIAL WEB SITE</h1>
+		</div>
+	</header>
 
-{{ with .Params.main }}
-<div class="mw7 center">
-  <div class="mw6 ph3 mb3">
-    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
-  </div>
-</div>
+	<main class="main-contents">
+		<div class="content-wrp-01 bg-01">
+			<div class="hdg-lv2-wrp">
+				<h2 class="hdg-lv2">Introduction</h2>
+			</div>
+			<p class="txt-02"><strong class="embed">amis amants<span class="txt-01">/ アミス アマンツ</span></strong></p>
+			<p class="txt-02">名古屋の2ピースロックバンド。<br>バンド形式でのライブ活動を一時休止中。<br><span class="txt-small">Gt.&Vo.</span>高木勇気のソロ活動は続けております。</p>
+		</div>
+		<div class="content-wrp-01 bg-02">
+			<div class="hdg-lv2-wrp">
+				<h2 class="hdg-lv2">Live</h2>
+			</div>
+			<!-- <div class="live-box">
+				<p class="live-info">
+					<span class="">第249回『#名古屋音楽交差点』</span><br>
+					<span class="live-date">3/21(土)</span>
+					<span class="live-where">名古屋・栄 DreamCube</span>
+					<span class="live-image">
+						<img src="https://pbs.twimg.com/media/ESQMsLQUwAEcTve.jpg" alt="#名古屋音楽交差点">
+					</span>
+					<span class="live-act">坂梨優希 / 杉村昭輝  / Lily / 高木勇気 (amis amants) / 世憂子 / MeGuMi / 紫とピンクメトセトラ / Spirit☆</span><br>
+					<span class="live-time">Open 16:30 / Start 17:00</span><br>
+					<span class="live-price">Adv &yen;2,000(+1D) / Door &yen;2,500(+1D)</span>
+				</p>
+			</div>
+			<div class="live-box">
+				<p class="live-info">
+					<span class="live-date">4/12(日)</span>
+					<span class="live-where">名古屋・新栄 soul kitchen</span>
+					<span class="live-act"></span>
+					<span class="live-time"></span>
+					<span class="live-price"></span><br>
+					<span class="live-about">詳細未定</span>
+				</p>
+			</div>
+			<div class="live-box special">
+				<p class="live-info">
+					<span class="live-date">4/18(土)</span>
+					<span class="live-where">名古屋・吹上 鑪ら場</span><br>
+					<span class="live-about">1st mini Album 『指輪』 リリース記念イベント</span><br>
+					<span class="live-image">
+						<img src="/amis-amants/common/images/info/20200418.jpg" alt="アミスアマンツで居よう。">
+					</span>
+					<span class="live-time">Open 17:30 / Start 18:00</span><br>
+					<span class="live-price">&yen;1,500(+1D)</span><br>
+					<span class="live-about"></span>
+				</p>
+			</div> -->
+			<div class="btn-wrp">
+				<a href="https://linkco.re/PrXDG72g" class="btn-03 btn-plane" target="_blank">
+					<span class="btn-inner">1st Single 『のりしろ』 </span>
+				</a>
+			</div>
+		</div>
 
-<!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
+		
 
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
-</div>
+		<p class="txt-03">『指輪』/ 高木勇気</p>
+		<div class="video">
+			<iframe src="https://www.youtube.com/embed/QcsEb7w-fDo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<p class="txt-03">『走り雲』/ amis amants</p>
+		<div class="video">
+			<iframe src="https://www.youtube.com/embed/i6g44UO_hVg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</main>
+	<footer>
+		<div class="footer-contents-wrp">
+			<p class="footer-contents center">
+				&copy;&nbsp;kubiswara'z Records
+			</p></div>
+		</footer>
+	</body>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
 
-<!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
-
-{{ partial "table" .Params.pricing }}
-
-{{ end }}
+	</html>
