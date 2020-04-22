@@ -1,5 +1,6 @@
 ---
 title: Our Coffee
+draft: true
 type: products
 image: /img/products-jumbotron.jpg
 heading: What we offer
