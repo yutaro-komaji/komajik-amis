@@ -16,7 +16,7 @@
 				<h2 class="hdg-lv2">Introduction</h2>
 			</div>
 			<p class="txt-02"><strong class="embed">amis amants<span class="txt-01">/ アミス アマンツ</span></strong></p>
-			<p class="txt-02">名古屋の2ピースロックバンド。<br>バンド形式でのライブ活動を一時休止中。<br><span class="txt-small">Gt.&Vo.</span>高木勇気のソロ活動は続けております。</p>
+			<p class="f7 tc">名古屋の2ピースロックバンド。<br>バンド形式でのライブ活動を一時休止中。<br><span class="txt-small">Gt.&Vo.</span>高木勇気のソロ活動は続けております。</p>
 		</div>
 		<!-- <div class="content-wrp-01 bg-02">
 			<div class="hdg-lv2-wrp">
@@ -67,8 +67,20 @@
 		</div>
 		<div class="btn-wrp">
 			<a href="https://linkco.re/tXmg1np5" class="btn-03 btn-plane" target="_blank">
-				<span class="btn-inner">1st mini Album 『指輪』</span>
+				<span class="f6 white b btn-inner">1st mini Album 『指輪』</span>
 			</a>
+		</div>
+
+		<div class="mw7 center ph3 pt4">
+
+			{{ range $index, $element := .Params.values }}
+				{{ if modBool $index 2 }}
+					{{ partial "media-block" $element }}
+					{{ else }}
+					{{ partial "media-block-reverse" $element }}
+				{{ end }}
+			{{ end }}
+
 		</div>
 		
 
