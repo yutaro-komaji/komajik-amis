@@ -12,8 +12,8 @@
 
 	<main class="main-contents">
 		<div class="content-wrp-01 bg-01">
-			<div class="hdg-lv2-wrp">
-				<h2 class="hdg-lv2">Introduction</h2>
+		<div class="hdg-lv2-wrp">
+			<h2 class="f4 b lh-title mb2 center tc mw4" style="margin-top: 1.3rem; margin-bottom: 1rem; color: #da9799; border-bottom: solid 3px #da9799;">Introduction</h2>
 			</div>
 			<p class="txt-02"><strong class="embed">amis amants<span class="txt-01">/ アミス アマンツ</span></strong></p>
 			<p class="f7 tc">名古屋の2ピースロックバンド。<br>バンド形式でのライブ活動を一時休止中。<br><span class="txt-small">Gt.&Vo.</span>高木勇気のソロ活動は続けております。</p>
@@ -60,7 +60,7 @@
 			</div>
 		</div> -->
 		{{ partial "a-2col" .Params.intro }}
-		<div class="btn-wrp">
+		<!-- <div class="btn-wrp">
 			<a href="https://linkco.re/PrXDG72g" class="btn-03 btn-plane" target="_blank">
 				<span class="btn-inner">1st Single 『のりしろ』</span>
 			</a>
@@ -69,9 +69,9 @@
 			<a href="https://linkco.re/tXmg1np5" class="btn-03 btn-plane" target="_blank">
 				<span class="f6 white b btn-inner">1st mini Album 『指輪』</span>
 			</a>
-		</div>
+		</div> -->
 
-		<div class="mw7 center ph3 pt4">
+		<div class="mw7 center ph3 pt5 pb5">
 
 			{{ range $index, $element := .Params.values }}
 				{{ if modBool $index 2 }}
@@ -80,17 +80,20 @@
 					{{ partial "media-block-reverse" $element }}
 				{{ end }}
 			{{ end }}
-
+			<div class="tc mt3">
+		      <a href="https://amisamants.official.ec/items/28329733" class="btn raise">公式オンラインショップ</a>
+		    </div>
 		</div>
 		
-
-		<p class="txt-03">『指輪』/ 高木勇気</p>
-		<div class="video">
-			<iframe src="https://www.youtube.com/embed/QcsEb7w-fDo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-		<p class="txt-03">『走り雲』/ amis amants</p>
-		<div class="video">
-			<iframe src="https://www.youtube.com/embed/i6g44UO_hVg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="mb5">
+			<p class="txt-03">『指輪』/ 高木勇気</p>
+			<div class="video">
+				<iframe src="https://www.youtube.com/embed/QcsEb7w-fDo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<p class="txt-03">『走り雲』/ amis amants</p>
+			<div class="video">
+				<iframe src="https://www.youtube.com/embed/i6g44UO_hVg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 		</div>
 	</main>
 {{ end }}
