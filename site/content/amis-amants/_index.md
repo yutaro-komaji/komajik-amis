@@ -19,11 +19,11 @@ intro:
       text: 「指輪」
       desc: ----------収録曲----------
       list:
-        - listItem: 1, 煙草も吸えるさ
-        - listItem: 2, 指輪
-        - listItem: 3, ふたりの話
-        - listItem: 4, 助手席
-        - listItem: 5, アミスアマンツ(CD版限定)
+        - listItem: 1. 煙草も吸えるさ
+        - listItem: 2. 指輪
+        - listItem: 3. ふたりの話
+        - listItem: 4. 助手席
+        - listItem: 5. アミスアマンツ(CD版限定)
 values:
   - heading: "CD版 「指輪」"
     text: >
