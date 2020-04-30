@@ -5,9 +5,9 @@ releace:
   - heading: "RELEASE"
     title: "I Don't Wanna Close My Eyes"
     btnText: "LISTEN"
-    btnUrl: "https://twitter.com/WYFO_official"
+    btnUrl: "https://big-up.style/wYXdyvQQEE"
     text: >
-      2020年4月30日より各種ストリーミングサービスで配信中!
+      各種ストリーミングサービスで配信中!
     iframeUrl: "Iu2cdhIEW2Y"
 biography:
   - heading: "BIOGRAPHY"
