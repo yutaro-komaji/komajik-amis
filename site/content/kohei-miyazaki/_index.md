@@ -1,6 +1,5 @@
 ---
 title: Kohei Miyazaki
-draft: true
 image: /img/products-jumbotron.jpg
 heading: What we offer
 description: >-
@@ -51,31 +50,31 @@ main:
     journey. We personally visit each farm to make sure the conditions are
     optimal for the plants, farmers and the local environment.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: cat
     image: /img/kohei-miyazaki/img-km-01.jpeg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: fall
     image: /img/kohei-miyazaki/img-km-02.jpeg
   image3:
-    alt: Coffee beans
+    alt: mirror
     image: /img/kohei-miyazaki/img-km-03.jpeg
   image4:
-    alt: Coffee beans
+    alt: scam
     image: /img/kohei-miyazaki/img-km-04.jpeg
   image5:
-    alt: Coffee beans
+    alt: sky
     image: /img/kohei-miyazaki/img-km-05.jpeg
   image6:
-    alt: Coffee beans
+    alt: camp
     image: /img/kohei-miyazaki/img-km-06.jpeg
   image7:
-    alt: Coffee beans
+    alt: fest
     image: /img/kohei-miyazaki/img-km-07.jpeg
   image8:
-    alt: Coffee beans
+    alt: smoke
     image: /img/kohei-miyazaki/img-km-08.jpeg
   image9:
-    alt: Coffee beans
+    alt: life
     image: /img/kohei-miyazaki/img-km-09.jpeg
   image10:
     alt: Coffee beans
