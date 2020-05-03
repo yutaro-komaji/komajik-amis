@@ -1,4 +1,11 @@
-.am {
+.am h1,
+.am h2,
+.am h3,
+.am h4,
+.am h5,
+.am h6,
+.am p,
+{
 	font-family: "Roboto Condensed",Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 footer .footer-contents-wrp {
