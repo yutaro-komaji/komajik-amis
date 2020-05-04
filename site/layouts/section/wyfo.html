@@ -1,4 +1,44 @@
 {{ define "main" }}
+<section id="loading" class="loading">
+  <div class="loading__img">
+    <img src="/img/wyfo-load.png">
+  </div>
+</section>
+<style>
+.loading {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+}
+.loading__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.loading__img img {
+  width: 200px;
+  animation: rotate-anime 3.5s linear infinite;
+}
+@keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(function(){
+  var loading = $("#loading");
+  var isHidden = function(){
+    loading.fadeOut(1000);
+  };
+  setTimeout(isHidden,1000);
+});
+</script>
 <div class="wyfo">
 
 <div class="pv6 ph3 bg-center cover wyfo-h1" style="background-image: url('/img/img-hdg-wyfo.jpg')">

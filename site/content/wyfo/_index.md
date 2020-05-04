@@ -1,6 +1,7 @@
 ---
 title: "While You Freak Out"
 image: /img/img-hdg-wyfo.jpg
+w-loadImage: /img/wyfo-load.png
 releace:
   - heading: "RELEASE"
     title: "I Don't Wanna Close My Eyes"
