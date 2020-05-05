@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrlSp" .Params.imageSp "imageUrlPc" .Params.imagePc "title" .Title "subtitle" .Params.subtitle) }}
 
 <!-- {{ partial "short-text" .Params.blurb}} -->
 
@@ -12,19 +12,58 @@
 
 <div class="footer-nav" ontouchstart="">
 	<div class="footer-nav-inner">
-		<a href="/artists/">Artists</a>
+		<a href="#artists">Artists</a>
 	</div>
 </div>
-<div class="tc mt4 mb3">
-	<a href="/amis-amants/" class="btn raise">amis amants</a>
-</div>
-
-<div class="tc mt3 mb3">
-	<a href="/wyfo/" class="btn raise">While You Freak Out</a>
-</div>
-
-<div class="tc mt3 mb4">
-	<a href="/kohei-miyazaki/" class="btn raise">Kohei Miyazaki</a>
+<div id="artists">
+	<div class="picbtn clearfix">
+		<div class="picbtn-content col-md-4">
+			<a href="/amis-amants/">
+				<div class="picbtn-content-amis picbtn-bg"></div>
+				<p class="picbtn-content__title">amis amants</p>
+				<p class="picbtn-content__text"><!-- amis amants --></p>
+			</a>
+		</div>
+		<div class="picbtn-content col-md-4">
+			<a href="/wyfo/">
+				<div class="picbtn-content-wyfo picbtn-bg"></div>
+				<p class="picbtn-content__title">While You Freak Out</p>
+				<p class="picbtn-content__text"><!-- While You Freak Out --></p>
+			</a>
+		</div>
+	</div>
+	<div class="picbtn clearfix">
+		<div class="picbtn-content col-md-4">
+			<a href="/kohei-miyazaki/">
+				<div class="picbtn-content-kohei picbtn-bg"></div>
+				<p class="picbtn-content__title">Kohei Miyazaki</p>
+				<p class="picbtn-content__text"><!-- Kohei Miyazaki --></p>
+			</a>
+		</div>
+		<div class="picbtn-content col-md-4 pointer-none">
+			<a href="#">
+				<div class="picbtn-content-lmc picbtn-bg"></div>
+				<p class="picbtn-content__title">Light My Cigarette</p>
+				<p class="picbtn-content__text">coming soon...</p>
+			</a>
+		</div>
+	</div>
+	<div class="picbtn clearfix">
+		<div class="picbtn-content col-md-4 pointer-none">
+			<a href="#">
+				<div class="picbtn-content-beve picbtn-bg"></div>
+				<p class="picbtn-content__title">BeVe</p>
+				<p class="picbtn-content__text">coming soon...</p>
+			</a>
+		</div>
+		<div class="picbtn-content col-md-4 pointer-none">
+			<a href="#">
+				<div class="picbtn-content-umsg picbtn-bg"></div>
+				<p class="picbtn-content__title">ウマすぎてごめんね</p>
+				<p class="picbtn-content__text">coming soon...</p>
+			</a>
+		</div>
+	</div>
 </div>
 <div class="footer-nav" ontouchstart="">
 	<div class="footer-nav-inner">
