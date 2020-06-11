@@ -5,7 +5,7 @@ releace:
   - heading: "RELEASE"
     title: "I Don't Wanna Close My Eyes"
     btnText: "LISTEN"
-    btnUrl: "https://big-up.style/wYXdyvQQEE"
+    btnUrl: "https://linkco.re/eFbPf7Nq"
     text: >
       各種ストリーミングサービスで配信中!
     iframeUrl: "Iu2cdhIEW2Y"
