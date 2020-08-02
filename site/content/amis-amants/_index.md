@@ -24,10 +24,6 @@ intro:
         - listItem: 3. ふたりの話
         - listItem: 4. 助手席
 image: img/img-al-ring.jpg
-values: >-
-  List [ Map { "heading": "ライブ情報", "text": "今後のライブ情報です", "text2":
-  "8/6タイトロープ無観客配信\n 8/8UNLIMITS\n 8/19鑪ら場\n 8/24新栄RAD SEVEN", "imageUrl":
-  "https://amisamants.official.ec/items/28329733", "image":
-  "/img/img-al-ring.jpg" } ]
+values: test
 ---
 
